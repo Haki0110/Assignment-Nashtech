@@ -1,0 +1,47 @@
+C# Fundamental
+Data type: Classes, structs, enums, interfaces, delegates
+predefined type: int, string, byte, chat, string, object
+
+Tham chiếu và tham trị:
+- Tham chieu: Chi dinh den mot o nho, refer den 1 gia tri allocate den gia tri day
+
+Data Members:
+- Fields, constant, arrays
+- Events
+
+Function members:
+- Methods, operators, constructors, destructors
+- Properties, indexers
+
+Other types:
+
+Some referent type : String, Delegate, Arrays, class
+
+Value type: lưu trong Stack (ngăn xếp)
+
+implicit: Boxing 
+ex: long y = x;
+
+Explicit: Unboxing (references type)
+ex: short z = (short)x
+
+Arrays: need to be predefined
+
+Enumerate: Cách để lấy, access dữ liệu
+- foreach (string i in food1) cw(i)
+
+Array đã allocate số phần tử thì không thể add số lượng nhiều hơn (giúp cố định bộ nhớ), còn List thì có thể co giãn
+
+Để đếm số lượng phần thử trong Array -> Array.Length, trong List -> List.count
+
+Nested Conditoional Statement (AND & OR trong điều kiện)
+
+Optional Parameter, thường dùng trong khai báo hàm
+static public void scholar(string fname,  
+                               string lname, 
+                               int age = 20, 
+         string branch = "Computer science") 
+
+
+Parameter: thông tin được truyền vào phương thức.
+Arguments: Tham số được truyền vào phương thức.

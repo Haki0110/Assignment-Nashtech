@@ -1,0 +1,14 @@
+c:\Users\Admin\Desktop\R2E-Nashtech\bin\Debug\net8.0\R2E-Nashtech.exe
+c:\Users\Admin\Desktop\R2E-Nashtech\bin\Debug\net8.0\R2E-Nashtech.deps.json
+c:\Users\Admin\Desktop\R2E-Nashtech\bin\Debug\net8.0\R2E-Nashtech.runtimeconfig.json
+c:\Users\Admin\Desktop\R2E-Nashtech\bin\Debug\net8.0\R2E-Nashtech.dll
+c:\Users\Admin\Desktop\R2E-Nashtech\bin\Debug\net8.0\R2E-Nashtech.pdb
+c:\Users\Admin\Desktop\R2E-Nashtech\obj\Debug\net8.0\R2E-Nashtech.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Admin\Desktop\R2E-Nashtech\obj\Debug\net8.0\R2E-Nashtech.AssemblyInfoInputs.cache
+c:\Users\Admin\Desktop\R2E-Nashtech\obj\Debug\net8.0\R2E-Nashtech.AssemblyInfo.cs
+c:\Users\Admin\Desktop\R2E-Nashtech\obj\Debug\net8.0\R2E-Nashtech.csproj.CoreCompileInputs.cache
+c:\Users\Admin\Desktop\R2E-Nashtech\obj\Debug\net8.0\R2E-Nashtech.dll
+c:\Users\Admin\Desktop\R2E-Nashtech\obj\Debug\net8.0\refint\R2E-Nashtech.dll
+c:\Users\Admin\Desktop\R2E-Nashtech\obj\Debug\net8.0\R2E-Nashtech.pdb
+c:\Users\Admin\Desktop\R2E-Nashtech\obj\Debug\net8.0\R2E-Nashtech.genruntimeconfig.cache
+c:\Users\Admin\Desktop\R2E-Nashtech\obj\Debug\net8.0\ref\R2E-Nashtech.dll
