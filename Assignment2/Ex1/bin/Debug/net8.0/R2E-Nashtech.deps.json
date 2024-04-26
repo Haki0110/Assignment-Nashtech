@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "R2E-Nashtech/1.0.0": {
+        "runtime": {
+          "R2E-Nashtech.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "R2E-Nashtech/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

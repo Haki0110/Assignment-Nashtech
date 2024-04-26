@@ -1,0 +1,114 @@
+C# Fundamental
+Data type: Classes, structs, enums, interfaces, delegates
+predefined type: int, string, byte, chat, string, object
+
+Tham chiếu và tham trị:
+- Tham chieu: Chi dinh den mot o nho, refer den 1 gia tri allocate den gia tri day
+
+Data Members:
+- Fields, constant, arrays
+- Events
+
+Function members:
+- Methods, operators, constructors, destructors
+- Properties, indexers
+
+Other types:
+
+Some referent type : String, Delegate, Arrays, class
+
+Value type: lưu trong Stack (ngăn xếp)
+
+implicit: Boxing 
+ex: long y = x;
+
+Explicit: Unboxing (references type)
+ex: short z = (short)x
+
+Arrays: need to be predefined
+
+Enumerate: Cách để lấy, access dữ liệu
+- foreach (string i in food1) cw(i)
+
+Array đã allocate số phần tử thì không thể add số lượng nhiều hơn (giúp cố định bộ nhớ), còn List thì có thể co giãn
+
+Để đếm số lượng phần thử trong Array -> Array.Length, trong List -> List.count
+
+Nested Conditoional Statement (AND & OR trong điều kiện)
+
+Optional Parameter, thường dùng trong khai báo hàm
+static public void scholar(string fname,  
+                               string lname, 
+                               int age = 20, 
+         string branch = "Computer science") 
+
+
+Parameter: thông tin được truyền vào phương thức.
+Arguments: Tham số được truyền vào phương thức.
+---------------------
+Day 2: LinQ & Lambda Expression
+
+Class: include Data & Behavior
+Data: fields
+Behaviors: methods/functions
+
+Naming Convention:
+- pascal Case: Viết hoa tất cả các chữ cái đầu
+- Camel Case
+
+Method: Pascal Case
+Properties: camelCase
+
+method không có access modifier -> private
+
+Constructor: tạo 1 ô nhớ cho object đó để đẩy đối tượng vào ô nhớ.
+
+Constructor Overloading: 
+
+static: biến không thay dổi
+-> KHông thể tạo đc instance cho static class
+
+Anonymous Class:
+- Không đc define trước
+- Must all be initialized
+-Member không được là static
+
+- Inheritance ( kế thừa ): 1 class có thể kế thừa đc 1 class / nhiều interview
+
+myAnonymousObj = new {Name = "John", Age = 32}
+
+
+Composition: 1 loại relationship có thể 1 class chứa 1 class khác
+Refer to Has-A Relationship: A Car has an Engine
+Benefits: Code re-use, loose coupling
+
+Composition x Inheritance:
+- Inheritance khá dễ để làm, nhưng dẫn để complex hỉerarchies, kế thừa theo kiểu phân cáp
+- Không nên inheritance khá nhiều tầng
+=> tight coupling, quan hệ chặt chẽ
+
+- Composition cho sự flexible, lose coupling
+
+-Interface:
++ Là 1 constructor giống class nhưng k có hàm khởi tạo
++ Chỉ có thể declare methods vs properties nhưng không thể fields
+(Properties là có get,set, fields là không có get set)
++Member không có access modifiers
+=> loosely coupled
++ 1 interface có thể được dùng ở nhiều class khác nhau
+
+- Abstract class:
+Interface không thể có thân hàm, abstract có thể có hoặc không
+Interface không thể chứa constructor và accessmodifier, abstract phải có
+
+References: 
+
+-Delegate:
++ Thường dùng trong event handler, callback action, 
+
+-Async: tất cả các function chạy 1 lúc, sync thì chạy từng cái
+
+Task.WaitAll:
+Task.WhenAll:
+Task.WhenAny:
+
