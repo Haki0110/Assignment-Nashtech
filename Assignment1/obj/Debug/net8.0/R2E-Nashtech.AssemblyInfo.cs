@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("R2E-Nashtech")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fc8cb77bca3749c767fc70cae4673745eb1acb96")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+56aefb166684df38a6b073d1a6fd2dea0e3c7ce0")]
 [assembly: System.Reflection.AssemblyProductAttribute("R2E-Nashtech")]
 [assembly: System.Reflection.AssemblyTitleAttribute("R2E-Nashtech")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

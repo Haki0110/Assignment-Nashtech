@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ASPNETAssignment1.WebApp.props" />
+</Project>

@@ -1,0 +1,15 @@
+C:\Users\Admin\source\repos\DemoForRookies\DemoForRookies.BusinessLogic\obj\Debug\net8.0\DemoForRookies.BusinessLogic.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\DemoForRookies\DemoForRookies.BusinessLogic\obj\Debug\net8.0\DemoForRookies.BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\DemoForRookies\DemoForRookies.BusinessLogic\obj\Debug\net8.0\DemoForRookies.BusinessLogic.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\DemoForRookies\DemoForRookies.BusinessLogic\obj\Debug\net8.0\DemoForRookies.BusinessLogic.AssemblyInfo.cs
+C:\Users\Admin\source\repos\DemoForRookies\DemoForRookies.BusinessLogic\obj\Debug\net8.0\DemoForRookies.BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\DemoForRookies\DemoForRookies.BusinessLogic\bin\Debug\net8.0\DemoForRookies.BusinessLogic.deps.json
+C:\Users\Admin\source\repos\DemoForRookies\DemoForRookies.BusinessLogic\bin\Debug\net8.0\DemoForRookies.BusinessLogic.dll
+C:\Users\Admin\source\repos\DemoForRookies\DemoForRookies.BusinessLogic\bin\Debug\net8.0\DemoForRookies.BusinessLogic.pdb
+C:\Users\Admin\source\repos\DemoForRookies\DemoForRookies.BusinessLogic\bin\Debug\net8.0\DemoForRookies.Models.dll
+C:\Users\Admin\source\repos\DemoForRookies\DemoForRookies.BusinessLogic\bin\Debug\net8.0\DemoForRookies.Models.pdb
+C:\Users\Admin\source\repos\DemoForRookies\DemoForRookies.BusinessLogic\obj\Debug\net8.0\DemoForR.47FA5CC0.Up2Date
+C:\Users\Admin\source\repos\DemoForRookies\DemoForRookies.BusinessLogic\obj\Debug\net8.0\DemoForRookies.BusinessLogic.dll
+C:\Users\Admin\source\repos\DemoForRookies\DemoForRookies.BusinessLogic\obj\Debug\net8.0\refint\DemoForRookies.BusinessLogic.dll
+C:\Users\Admin\source\repos\DemoForRookies\DemoForRookies.BusinessLogic\obj\Debug\net8.0\DemoForRookies.BusinessLogic.pdb
+C:\Users\Admin\source\repos\DemoForRookies\DemoForRookies.BusinessLogic\obj\Debug\net8.0\ref\DemoForRookies.BusinessLogic.dll

@@ -1,0 +1,11 @@
+C:\Users\Admin\source\repos\DemoForRookies\DemoForRookies.Models\obj\Debug\net8.0\DemoForRookies.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\DemoForRookies\DemoForRookies.Models\obj\Debug\net8.0\DemoForRookies.Models.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\DemoForRookies\DemoForRookies.Models\obj\Debug\net8.0\DemoForRookies.Models.AssemblyInfo.cs
+C:\Users\Admin\source\repos\DemoForRookies\DemoForRookies.Models\obj\Debug\net8.0\DemoForRookies.Models.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\DemoForRookies\DemoForRookies.Models\bin\Debug\net8.0\DemoForRookies.Models.deps.json
+C:\Users\Admin\source\repos\DemoForRookies\DemoForRookies.Models\bin\Debug\net8.0\DemoForRookies.Models.dll
+C:\Users\Admin\source\repos\DemoForRookies\DemoForRookies.Models\bin\Debug\net8.0\DemoForRookies.Models.pdb
+C:\Users\Admin\source\repos\DemoForRookies\DemoForRookies.Models\obj\Debug\net8.0\DemoForRookies.Models.dll
+C:\Users\Admin\source\repos\DemoForRookies\DemoForRookies.Models\obj\Debug\net8.0\refint\DemoForRookies.Models.dll
+C:\Users\Admin\source\repos\DemoForRookies\DemoForRookies.Models\obj\Debug\net8.0\DemoForRookies.Models.pdb
+C:\Users\Admin\source\repos\DemoForRookies\DemoForRookies.Models\obj\Debug\net8.0\ref\DemoForRookies.Models.dll
