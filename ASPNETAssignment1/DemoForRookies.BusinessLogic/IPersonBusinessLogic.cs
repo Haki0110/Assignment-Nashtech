@@ -6,7 +6,7 @@ namespace ASPNETAssignment1.BusinessLogic
     public interface IPersonBusinessLogic
     {
             
-        public IEnumerable<Person> GetMalePersons(List<Person> people);
+        public IEnumerable<Person> GetMalePersons();
 
         public Person GetOldestPerson();
 
@@ -15,7 +15,7 @@ namespace ASPNETAssignment1.BusinessLogic
         public (List<Person>, List<Person>, List<Person>) FilterByBirthYear();
 
         IActionResult ExportToExcel();
-        IEnumerable<Person> GetMalePersons();
+
     }
 }
 

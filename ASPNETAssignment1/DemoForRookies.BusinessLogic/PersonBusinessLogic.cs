@@ -18,14 +18,14 @@ namespace ASPNETAssignment1.BusinessLogic
         {
 
 
-            return _personRepositories.getList().Where(p => p.Gender == GenderType.Male);
+            return _personRepositories.getAll().Where(p => p.Gender == GenderType.Male);
     }
 
         Person IPersonBusinessLogic.GetOldestPerson()
         {
             Person oldestPerson = null;
             int maxAge = int.MinValue;
-            foreach (Person person in _personRepositories.getList())
+            foreach (Person person in _personRepositories.getAll())
             {
                 if (person.Age > maxAge)
                 {
@@ -38,14 +38,14 @@ namespace ASPNETAssignment1.BusinessLogic
 
         IEnumerable<string> IPersonBusinessLogic.GetFullNames()
         {
-            return _personRepositories.getList().Select(p => p.LastName + " " + p.FirstName).ToList();
+            return _personRepositories.getAll().Select(p => p.LastName + " " + p.FirstName).ToList();
         }
 
         (List<Person>, List<Person>, List<Person>) IPersonBusinessLogic.FilterByBirthYear()
         {
-            List<Person> equal2k = _personRepositories.getList().Where(p => p.DateOfBirth.Year == 2000).ToList();
-            List<Person> greater2k = _personRepositories.getList().Where(p => p.DateOfBirth.Year > 2000).ToList();
-            List<Person> lower2k = _personRepositories.getList().Where(p => p.DateOfBirth.Year < 2000).ToList();
+            List<Person> equal2k = _personRepositories.getAll().Where(p => p.DateOfBirth.Year == 2000).ToList();
+            List<Person> greater2k = _personRepositories.getAll().Where(p => p.DateOfBirth.Year > 2000).ToList();
+            List<Person> lower2k = _personRepositories.getAll().Where(p => p.DateOfBirth.Year < 2000).ToList();
             return (equal2k, greater2k, lower2k);
         }
 
@@ -53,7 +53,7 @@ namespace ASPNETAssignment1.BusinessLogic
 
         public IActionResult ExportToExcel()
         {
-            var people = _personRepositories.getList(); // Lấy danh sách people từ repository
+            var people = _personRepositories.getAll(); // Lấy danh sách people từ repository
 
 
             // Tạo file Excel
@@ -133,10 +133,7 @@ namespace ASPNETAssignment1.BusinessLogic
             return true;
         }
 
-        public IEnumerable<Person> GetMalePersons(List<Person> people)
-        {
-            throw new NotImplementedException();
-        }
+
     }
 
 

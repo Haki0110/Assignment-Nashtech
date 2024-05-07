@@ -5,7 +5,7 @@ namespace ASPNETAssignment1.Models.Repository
 {
     public class PersonRepository : IPersonRepositories
     {
-        public IEnumerable<Person> getList()
+        public IEnumerable<Person> getAll()
         {
             return GetListPerson();
         }

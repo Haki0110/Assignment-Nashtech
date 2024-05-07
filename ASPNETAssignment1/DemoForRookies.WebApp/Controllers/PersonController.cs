@@ -14,10 +14,9 @@ namespace ASPNETAssignment1.WebApp.Controllers
             _personBusinessLogic = personBusinessLogic;
         }
 
-        public IActionResult ListMalePersons(IEnumerable<Person> people)
+        public IActionResult ListMalePersons()
         {
-            List<Person> peopleList = people.ToList();
-            IEnumerable<Person> malePersons = _personBusinessLogic.GetMalePersons(peopleList);
+            IEnumerable<Person> malePersons = _personBusinessLogic.GetMalePersons();
             return Ok(malePersons);
         }
 

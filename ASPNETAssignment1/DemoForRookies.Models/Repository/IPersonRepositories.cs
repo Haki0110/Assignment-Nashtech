@@ -5,6 +5,6 @@ namespace ASPNETAssignment1.Models.Repository
 {
     public interface IPersonRepositories
     {
-        public IEnumerable<Person> getList();
+        public IEnumerable<Person> getAll();
     }
 }
