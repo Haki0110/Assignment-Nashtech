@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "Confirmation";
+    Layout = "~/Views/Shared/_Layout.cshtml"; // Assuming you have a shared layout
+}
+
+<h1>Confirmation</h1>
+
+@if (!string.IsNullOrEmpty(ViewBag.SuccessMessage))
+{
+    <div class="alert alert-success" role="alert">
+        @Html.Raw(ViewBag.SuccessMessage)
+    </div>
+}
+else
+{
+    <div class="alert alert-warning" role="alert">
+        No confirmation message found.
+    </div>
+}
+
+<p>
+    <a asp-action="Index" class="btn btn-primary">Back to List</a>
+</p>

@@ -1,0 +1,108 @@
+﻿@model (List<ASPNETAssignment1.Models.Models.Person>, List<ASPNETAssignment1.Models.Models.Person>, List<ASPNETAssignment1.Models.Models.Person>)
+@{
+    ViewData["Title"] = "FilterByBirthYear";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>FilterByBirthYear</h1>
+
+<style>
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    th, td {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+
+    th {
+        font-weight: bold;
+    }
+</style>
+
+<h2>The People who born in 2000</h2>
+<table>
+    <tr>
+        <th>ID</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Gender</th>
+        <th>Date of Birth</th>
+        <th>Phong Number</th>
+        <th>Birthplace</th>
+        <th>Age</th>
+        <th>Is Graduated</th>
+    </tr>
+    @foreach (var person in Model.Item1)
+    {
+        <tr>
+            <td>@person.Id</td>
+            <td>@person.FirstName</td>
+            <td>@person.LastName</td>
+            <td>@person.Gender</td>
+            <td>@person.DateOfBirth.ToString("dd/MM/yyyy")</td>
+            <td>@person.PhoneNumber</td>
+            <td>@person.BirthPlace</td>
+            <td>@person.Age</td>
+            <td>@person.IsGraduated</td>
+        </tr>
+    }
+</table>
+
+<h2>The People who born after 2000:</h2>
+<table>
+    <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Gender</th>
+        <th>Date of Birth</th>
+        <th>Phong Number</th>
+        <th>Birthplace</th>
+        <th>Age</th>
+        <th>Is Graduated</th>
+    </tr>
+    @foreach (var person in Model.Item2)
+    {
+        <tr>
+            <td>@person.FirstName</td>
+            <td>@person.LastName</td>
+            <td>@person.Gender</td>
+            <td>@person.DateOfBirth.ToString("dd/MM/yyyy")</td>
+            <td>@person.PhoneNumber</td>
+            <td>@person.BirthPlace</td>
+            <td>@person.Age</td>
+            <td>@person.IsGraduated</td>
+        </tr>
+    }
+</table>
+
+<h2>The People who born before 2000</h2>
+<table>
+    <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Gender</th>
+        <th>Date of Birth</th>
+        <th>Phong Number</th>
+        <th>Birthplace</th>
+        <th>Age</th>
+        <th>Is Graduated</th>
+    </tr>
+    @foreach (var person in Model.Item3)
+    {
+        <tr>
+            <td>@person.FirstName</td>
+            <td>@person.LastName</td>
+            <td>@person.Gender</td>
+            <td>@person.DateOfBirth.ToString("dd/MM/yyyy")</td>
+            <td>@person.PhoneNumber</td>
+            <td>@person.BirthPlace</td>
+            <td>@person.Age</td>
+            <td>@person.IsGraduated</td>
+        </tr>
+    }
+</table>

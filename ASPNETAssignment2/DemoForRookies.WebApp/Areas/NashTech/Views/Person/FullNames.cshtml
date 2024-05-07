@@ -1,0 +1,36 @@
+﻿@model IEnumerable<string>
+@{
+    ViewData["Title"] = "FullNames";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>FullNames</h1>
+
+<style>
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    th, td {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+
+    th {
+        font-weight: bold;
+    }
+</style>
+
+<table>
+    <tr>
+        <th>Full Name</th>
+    </tr>
+    @foreach (var person in Model)
+    {
+        <tr>
+            <td>@person</td>
+        </tr>
+    }
+</table>
