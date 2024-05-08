@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eglRDhO6cx8vCujczX7RjCN/djFMpHlD/EiDISZeyPneVab2JvD6dhtdJlM58QOPuiZsDZ+bh+Qd2+wAOryskw==",
+  "dgSpecHash": "ACHLeLn95Ah/w+zKS57T5QK8TPuswOlt2JcibkBdCMzOna6Q3cN6K/QyWH4C8I9f/sxflJwn1MyQmOHlpjx0Fw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\source\\repos\\ASPNETAssignment1\\DemoForRookies.Models\\ASPNETAssignment1.Models.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\Desktop\\R2E-Nashtech\\ASPNETAssignment2\\DemoForRookies.Models\\ASPNETAssignment1.Models.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.netcore.platforms\\1.0.1\\microsoft.netcore.platforms.1.0.1.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.netcore.targets\\1.0.1\\microsoft.netcore.targets.1.0.1.nupkg.sha512",

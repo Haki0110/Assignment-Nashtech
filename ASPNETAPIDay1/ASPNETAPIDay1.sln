@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPNETAPIDay1", "ASPNETAPIDay1\ASPNETAPIDay1.csproj", "{8BDBEBF4-DBA8-4231-99F5-D1750AC57200}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8BDBEBF4-DBA8-4231-99F5-D1750AC57200}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BDBEBF4-DBA8-4231-99F5-D1750AC57200}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BDBEBF4-DBA8-4231-99F5-D1750AC57200}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BDBEBF4-DBA8-4231-99F5-D1750AC57200}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AD66447D-D7C7-4233-B551-AA1EE7B90D25}
+	EndGlobalSection
+EndGlobal

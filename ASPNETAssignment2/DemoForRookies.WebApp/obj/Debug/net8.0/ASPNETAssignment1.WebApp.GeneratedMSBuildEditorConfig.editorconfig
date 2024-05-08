@@ -17,83 +17,83 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ASPNETAssignment1.WebApp
 build_property.RootNamespace = ASPNETAssignment1.WebApp
-build_property.ProjectDir = C:\Users\Admin\source\repos\ASPNETAssignment1\DemoForRookies.WebApp\
+build_property.ProjectDir = C:\Users\Admin\Desktop\R2E-Nashtech\ASPNETAssignment2\DemoForRookies.WebApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Admin\source\repos\ASPNETAssignment1\DemoForRookies.WebApp
+build_property.MSBuildProjectDirectory = C:\Users\Admin\Desktop\R2E-Nashtech\ASPNETAssignment2\DemoForRookies.WebApp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Admin/source/repos/ASPNETAssignment1/DemoForRookies.WebApp/Areas/NashTech/Views/Person/Confirmation.cshtml]
+[C:/Users/Admin/Desktop/R2E-Nashtech/ASPNETAssignment2/DemoForRookies.WebApp/Areas/NashTech/Views/Person/Confirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTmFzaFRlY2hcVmlld3NcUGVyc29uXENvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/source/repos/ASPNETAssignment1/DemoForRookies.WebApp/Areas/NashTech/Views/Person/Create.cshtml]
+[C:/Users/Admin/Desktop/R2E-Nashtech/ASPNETAssignment2/DemoForRookies.WebApp/Areas/NashTech/Views/Person/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTmFzaFRlY2hcVmlld3NcUGVyc29uXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/source/repos/ASPNETAssignment1/DemoForRookies.WebApp/Areas/NashTech/Views/Person/Delete.cshtml]
+[C:/Users/Admin/Desktop/R2E-Nashtech/ASPNETAssignment2/DemoForRookies.WebApp/Areas/NashTech/Views/Person/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTmFzaFRlY2hcVmlld3NcUGVyc29uXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/source/repos/ASPNETAssignment1/DemoForRookies.WebApp/Areas/NashTech/Views/Person/Details.cshtml]
+[C:/Users/Admin/Desktop/R2E-Nashtech/ASPNETAssignment2/DemoForRookies.WebApp/Areas/NashTech/Views/Person/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTmFzaFRlY2hcVmlld3NcUGVyc29uXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/source/repos/ASPNETAssignment1/DemoForRookies.WebApp/Areas/NashTech/Views/Person/Edit.cshtml]
+[C:/Users/Admin/Desktop/R2E-Nashtech/ASPNETAssignment2/DemoForRookies.WebApp/Areas/NashTech/Views/Person/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTmFzaFRlY2hcVmlld3NcUGVyc29uXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/source/repos/ASPNETAssignment1/DemoForRookies.WebApp/Areas/NashTech/Views/Person/FilterByBirthYear.cshtml]
+[C:/Users/Admin/Desktop/R2E-Nashtech/ASPNETAssignment2/DemoForRookies.WebApp/Areas/NashTech/Views/Person/FilterByBirthYear.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTmFzaFRlY2hcVmlld3NcUGVyc29uXEZpbHRlckJ5QmlydGhZZWFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/source/repos/ASPNETAssignment1/DemoForRookies.WebApp/Areas/NashTech/Views/Person/FullNames.cshtml]
+[C:/Users/Admin/Desktop/R2E-Nashtech/ASPNETAssignment2/DemoForRookies.WebApp/Areas/NashTech/Views/Person/FullNames.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTmFzaFRlY2hcVmlld3NcUGVyc29uXEZ1bGxOYW1lcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/source/repos/ASPNETAssignment1/DemoForRookies.WebApp/Areas/NashTech/Views/Person/Index.cshtml]
+[C:/Users/Admin/Desktop/R2E-Nashtech/ASPNETAssignment2/DemoForRookies.WebApp/Areas/NashTech/Views/Person/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTmFzaFRlY2hcVmlld3NcUGVyc29uXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/source/repos/ASPNETAssignment1/DemoForRookies.WebApp/Areas/NashTech/Views/Person/MalePerson.cshtml]
+[C:/Users/Admin/Desktop/R2E-Nashtech/ASPNETAssignment2/DemoForRookies.WebApp/Areas/NashTech/Views/Person/MalePerson.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTmFzaFRlY2hcVmlld3NcUGVyc29uXE1hbGVQZXJzb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/source/repos/ASPNETAssignment1/DemoForRookies.WebApp/Areas/NashTech/Views/Person/OldestPerson.cshtml]
+[C:/Users/Admin/Desktop/R2E-Nashtech/ASPNETAssignment2/DemoForRookies.WebApp/Areas/NashTech/Views/Person/OldestPerson.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTmFzaFRlY2hcVmlld3NcUGVyc29uXE9sZGVzdFBlcnNvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/source/repos/ASPNETAssignment1/DemoForRookies.WebApp/Areas/NashTech/Views/_ViewImports.cshtml]
+[C:/Users/Admin/Desktop/R2E-Nashtech/ASPNETAssignment2/DemoForRookies.WebApp/Areas/NashTech/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTmFzaFRlY2hcVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/source/repos/ASPNETAssignment1/DemoForRookies.WebApp/Views/Home/Index.cshtml]
+[C:/Users/Admin/Desktop/R2E-Nashtech/ASPNETAssignment2/DemoForRookies.WebApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/source/repos/ASPNETAssignment1/DemoForRookies.WebApp/Views/Home/Privacy.cshtml]
+[C:/Users/Admin/Desktop/R2E-Nashtech/ASPNETAssignment2/DemoForRookies.WebApp/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/source/repos/ASPNETAssignment1/DemoForRookies.WebApp/Views/Shared/Error.cshtml]
+[C:/Users/Admin/Desktop/R2E-Nashtech/ASPNETAssignment2/DemoForRookies.WebApp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/source/repos/ASPNETAssignment1/DemoForRookies.WebApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Admin/Desktop/R2E-Nashtech/ASPNETAssignment2/DemoForRookies.WebApp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/source/repos/ASPNETAssignment1/DemoForRookies.WebApp/Views/_ViewImports.cshtml]
+[C:/Users/Admin/Desktop/R2E-Nashtech/ASPNETAssignment2/DemoForRookies.WebApp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/source/repos/ASPNETAssignment1/DemoForRookies.WebApp/Views/_ViewStart.cshtml]
+[C:/Users/Admin/Desktop/R2E-Nashtech/ASPNETAssignment2/DemoForRookies.WebApp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/source/repos/ASPNETAssignment1/DemoForRookies.WebApp/Views/Shared/_Layout.cshtml]
+[C:/Users/Admin/Desktop/R2E-Nashtech/ASPNETAssignment2/DemoForRookies.WebApp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-49mgz9emlj

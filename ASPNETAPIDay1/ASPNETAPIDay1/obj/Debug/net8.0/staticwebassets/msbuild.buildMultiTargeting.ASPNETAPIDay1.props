@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ASPNETAPIDay1.props" />
+</Project>

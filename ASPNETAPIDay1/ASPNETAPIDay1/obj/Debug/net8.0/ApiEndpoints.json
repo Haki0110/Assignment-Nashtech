@@ -1,0 +1,113 @@
+[
+  {
+    "ContainingType": "ASPNETAPIDay1.Controllers.ToDoTaskController",
+    "Method": "CreateTask",
+    "RelativePath": "ToDoTask",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "taskDTO",
+        "Type": "ASPNETAPIDay1.DTOs.ToDoTaskDTOs",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ASPNETAPIDay1.Controllers.ToDoTaskController",
+    "Method": "GetAllTasks",
+    "RelativePath": "ToDoTask",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ASPNETAPIDay1.Controllers.ToDoTaskController",
+    "Method": "GetTask",
+    "RelativePath": "ToDoTask/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ASPNETAPIDay1.Controllers.ToDoTaskController",
+    "Method": "DeleteTask",
+    "RelativePath": "ToDoTask/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ASPNETAPIDay1.Controllers.ToDoTaskController",
+    "Method": "EditTask",
+    "RelativePath": "ToDoTask/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "toDoTask",
+        "Type": "ASPNETAPIDay1.Model.ToDoTask",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ASPNETAPIDay1.Controllers.ToDoTaskController",
+    "Method": "CreateBulkTasks",
+    "RelativePath": "ToDoTask/bulk",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tasksDTO",
+        "Type": "System.Collections.Generic.List\u00601[[ASPNETAPIDay1.DTOs.ToDoTaskDTOs, ASPNETAPIDay1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ASPNETAPIDay1.Controllers.ToDoTaskController",
+    "Method": "DeleteBulkTasks",
+    "RelativePath": "ToDoTask/bulk",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ids",
+        "Type": "System.Collections.Generic.List\u00601[[System.Guid, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
