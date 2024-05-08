@@ -1079,11 +1079,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\R2E-Nashtech\\ASPNETAssignment2\\DemoForRookies.Models\\ASPNETAssignment1.Models.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\ASPNETAssignment1\\DemoForRookies.Models\\ASPNETAssignment1.Models.csproj",
       "projectName": "ASPNETAssignment1.Models",
-      "projectPath": "C:\\Users\\Admin\\Desktop\\R2E-Nashtech\\ASPNETAssignment2\\DemoForRookies.Models\\ASPNETAssignment1.Models.csproj",
+      "projectPath": "C:\\Users\\Admin\\source\\repos\\ASPNETAssignment1\\DemoForRookies.Models\\ASPNETAssignment1.Models.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Desktop\\R2E-Nashtech\\ASPNETAssignment2\\DemoForRookies.Models\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\source\\repos\\ASPNETAssignment1\\DemoForRookies.Models\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

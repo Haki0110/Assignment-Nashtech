@@ -33,7 +33,7 @@
 
     <div class="form-group">
         <label asp-for="DateOfBirth" class="control-label"></label>
-        <input asp-for="DateOfBirth" class="form-control" />
+        <input asp-for="DateOfBirth" class="form-control" type="date" />
         <span asp-validation-for="DateOfBirth" class="text-danger"></span>
     </div>
 
@@ -50,11 +50,17 @@
     </div>
 
     <div class="form-group">
-        <label asp-for="IsGraduated" class="control-label"></label>
-        <input asp-for="IsGraduated" class="form-control" />
+        <label class="control-label">Is Graduated:</label>
+        <div>
+            <label class="radio-inline">
+                <input type="radio" asp-for="IsGraduated" value="true" /> Yes
+            </label>
+            <label class="radio-inline">
+                <input type="radio" asp-for="IsGraduated" value="false" /> No
+            </label>
+        </div>
         <span asp-validation-for="IsGraduated" class="text-danger"></span>
     </div>
-
     <div class="form-group">
         <input type="submit" value="Update" class="btn btn-primary" />
     </div>

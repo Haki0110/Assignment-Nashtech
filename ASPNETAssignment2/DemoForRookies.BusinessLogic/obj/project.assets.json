@@ -4840,11 +4840,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\R2E-Nashtech\\ASPNETAssignment2\\DemoForRookies.BusinessLogic\\ASPNETAssignment1.BusinessLogic.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\ASPNETAssignment1\\DemoForRookies.BusinessLogic\\ASPNETAssignment1.BusinessLogic.csproj",
       "projectName": "ASPNETAssignment1.BusinessLogic",
-      "projectPath": "C:\\Users\\Admin\\Desktop\\R2E-Nashtech\\ASPNETAssignment2\\DemoForRookies.BusinessLogic\\ASPNETAssignment1.BusinessLogic.csproj",
+      "projectPath": "C:\\Users\\Admin\\source\\repos\\ASPNETAssignment1\\DemoForRookies.BusinessLogic\\ASPNETAssignment1.BusinessLogic.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Desktop\\R2E-Nashtech\\ASPNETAssignment2\\DemoForRookies.BusinessLogic\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\source\\repos\\ASPNETAssignment1\\DemoForRookies.BusinessLogic\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4865,8 +4865,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Admin\\Desktop\\R2E-Nashtech\\ASPNETAssignment2\\DemoForRookies.Models\\ASPNETAssignment1.Models.csproj": {
-              "projectPath": "C:\\Users\\Admin\\Desktop\\R2E-Nashtech\\ASPNETAssignment2\\DemoForRookies.Models\\ASPNETAssignment1.Models.csproj"
+            "C:\\Users\\Admin\\source\\repos\\ASPNETAssignment1\\DemoForRookies.Models\\ASPNETAssignment1.Models.csproj": {
+              "projectPath": "C:\\Users\\Admin\\source\\repos\\ASPNETAssignment1\\DemoForRookies.Models\\ASPNETAssignment1.Models.csproj"
             }
           }
         }

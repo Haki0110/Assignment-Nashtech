@@ -74,6 +74,8 @@ namespace ASPNETAssignment1.Models.Repository
             return people.Where(p => p.Gender == genderType);
         }
 
+        
+
 
     }
 }
