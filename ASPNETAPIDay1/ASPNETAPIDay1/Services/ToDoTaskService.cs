@@ -16,9 +16,9 @@ namespace ASPNETAPIDay1.Services
             {
                 ToDoTask newTask = new ToDoTask
                 {
-                    id = Guid.NewGuid(), // Generate a new unique id
+                    id = Guid.NewGuid(), 
                     Title = toDoTaskDTOs.Title,
-                    IsCompleted = true // or set it based on DTOs
+                    IsCompleted = true 
                 };
 
                 todo.Add(newTask);
