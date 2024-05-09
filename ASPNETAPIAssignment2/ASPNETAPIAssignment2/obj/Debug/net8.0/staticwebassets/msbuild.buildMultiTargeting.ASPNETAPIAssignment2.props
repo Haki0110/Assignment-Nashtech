@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ASPNETAPIAssignment2.props" />
+</Project>
