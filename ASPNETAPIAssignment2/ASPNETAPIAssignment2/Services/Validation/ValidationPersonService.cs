@@ -25,7 +25,6 @@ namespace ASPNETAPIAssignment2.Services.Validation
                 validationResult.Errors[nameof(Person.LastName)] = ValidationMessage.LastNameIsRequired;
             }
 
-            // You can add more validation logic as needed
 
             validationResult.IsValid = validationResult.Errors.Count == 0;
             return validationResult;
