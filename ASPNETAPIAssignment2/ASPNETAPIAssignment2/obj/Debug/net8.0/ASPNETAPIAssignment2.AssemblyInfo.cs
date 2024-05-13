@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ASPNETAPIAssignment2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c1e9596c3d097d947303a2a6e1f5ac6c5ff5c4ba")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ad49a71fbc473de6a5ff2c2d80af3721f6934190")]
 [assembly: System.Reflection.AssemblyProductAttribute("ASPNETAPIAssignment2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ASPNETAPIAssignment2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
