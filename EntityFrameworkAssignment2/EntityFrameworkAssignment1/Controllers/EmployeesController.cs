@@ -137,5 +137,36 @@ namespace EntityFrameworkAssignment1.Controllers
                 })
                 .ToListAsync();
         }
+
+        [HttpGet("RawSQL")]
+        public async Task<ActionResult<IEnumerable<Employee>>> GetEmployeesWithSalaryAndJoinedDateRawSQL()
+        {
+            return await myContext.Employees
+                .FromSqlRaw("SELECT * FROM Employees WHERE Salary_Amount > 100 AND JoinedDate >= '2024-01-01'")
+                .ToListAsync();
+        }
+
+        // Apply transaction
+        [HttpPost("Transaction")]
+        public async Task<ActionResult<Employee>> PostEmployeeWithTransaction(Employee employee)
+        {
+            using (var transaction = myContext.Database.BeginTransaction())
+            {
+                try
+                {
+                    myContext.Employees.Add(employee);
+                    await myContext.SaveChangesAsync();
+
+                    transaction.Commit();
+
+                    return CreatedAtAction("GetEmployee", new { id = employee.Id }, employee);
+                }
+                catch (Exception)
+                {
+                    transaction.Rollback();
+                    return StatusCode(500, "An error occurred while saving the employee.");
+                }
+            }
+        }
     }
 }

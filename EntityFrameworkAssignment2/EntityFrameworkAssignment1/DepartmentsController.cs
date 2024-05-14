@@ -99,6 +99,8 @@ namespace EntityFrameworkAssignment1
             return NoContent();
         }
 
+
+
         private bool DepartmentExists(int id)
         {
             return _context.Departments.Any(e => e.Id == id);
