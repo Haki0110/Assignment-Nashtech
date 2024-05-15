@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "qZt4njm05vBu/YBijGmCOu3RNL5xp1U+b/snlcOZC9fkysJYTRZsVwoq0/yM0wdMod3+5qqUyHPZtxFcq7iODA==",
+  "dgSpecHash": "ZgfXJ8/IX84FNfJQXn3k4gdhnxegPKUpVANj/T7b5I/1kWIUsH3oEkZn85D80DNTA8Uq4NVP74et3q0OEpZWgg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Admin\\source\\repos\\EntityFrameworkAssignment1\\EntityFrameworkAssignment1\\EntityFrameworkAssignment1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\fluentassertions\\6.12.0\\fluentassertions.6.12.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\humanizer.core.af\\2.14.1\\humanizer.core.af.2.14.1.nupkg.sha512",

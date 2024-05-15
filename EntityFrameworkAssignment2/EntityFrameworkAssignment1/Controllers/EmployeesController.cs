@@ -1,4 +1,5 @@
-﻿using EntityFrameworkAssignment1.Model;
+﻿using EntityFrameworkAssignment1.DTOs;
+using EntityFrameworkAssignment1.Model;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
@@ -19,41 +20,86 @@ namespace EntityFrameworkAssignment1.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Employee>>> GetEmployees()
+        public async Task<ActionResult<IEnumerable<EmployeeDTO>>> GetEmployees()
         {
-            return await myContext.Employees.ToListAsync();
+            var employees = await myContext.Employees
+                .Include(e => e.Department)
+                .Include(e => e.Salary)
+                .Include(e => e.ProjectEmployees)
+                    .ThenInclude(pe => pe.Project)
+                .ToListAsync();
+            //dùng automapper
+            var employeeDTOs = employees.Select(e => new EmployeeDTO
+            {
+                Id = e.Id,
+                Name = e.Name,
+                DepartmentId = e.DepartmentId,
+                JoinedDate = e.JoinedDate,
+                Department = e.Department != null ? new DepartmentDTO
+                {
+                    Id = e.Department.Id,
+                    Name = e.Department.Name
+                } : null,
+                Salary = e.Salary != null ? new SalaryDTO
+                {
+                    Id = e.Salary.Id,
+                    Amount = e.Salary.Amount,
+                    EmployeeId = e.Salary.EmployeeId
+                } : null,
+                ProjectEmployees = e.ProjectEmployees?.Select(pe => new ProjectEmployeeDTO
+                {
+                    EmployeeId = pe.EmployeeId,
+                    ProjectId = pe.ProjectId,
+                    Enabled = pe.Enabled,
+                    Project = pe.Project != null ? new ProjectDTO
+                    {
+                        Id = pe.Project.Id,
+                        Name = pe.Project.Name
+                    } : null
+                }).ToList()
+            }).ToList();
+
+            return Ok(employeeDTOs);
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<Employee>> GetEmployee(int id)
+        public async Task<ActionResult<EmployeeDTO>> GetEmployee(int id)
         {
-            var employee = await myContext.Employees.FindAsync(id);
+            var employee = await myContext.Employees
+                .Include(e => e.Department)
+                .Include(e => e.Salary)
+                .Include(e => e.ProjectEmployees)
+                    .ThenInclude(pe => pe.Project)
+                .FirstOrDefaultAsync(e => e.Id == id);
 
             if (employee == null)
             {
                 return NotFound();
             }
 
-            return employee;
+            return Ok((EmployeeDTO)employee);
         }
 
         [HttpPost]
-        public async Task<ActionResult<Employee>> PostEmployee(Employee employee)
+        public async Task<ActionResult<EmployeeDTO>> PostEmployee(EmployeeDTO employeeDTO)
         {
+            var employee = (Employee)employeeDTO;
             myContext.Employees.Add(employee);
             await myContext.SaveChangesAsync();
 
-            return CreatedAtAction("GetEmployee", new { id = employee.Id }, employee);
+            var createdEmployeeDTO = (EmployeeDTO)employee;
+            return CreatedAtAction("GetEmployee", new { id = employee.Id }, createdEmployeeDTO);
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutEmployee(int id, Employee employee)
+        public async Task<IActionResult> PutEmployee(int id, EmployeeDTO employeeDTO)
         {
-            if (id != employee.Id)
+            if (id != employeeDTO.Id)
             {
                 return BadRequest();
             }
 
+            var employee = (Employee)employeeDTO;
             myContext.Entry(employee).State = EntityState.Modified;
 
             try
@@ -95,20 +141,25 @@ namespace EntityFrameworkAssignment1.Controllers
             return myContext.Employees.Any(e => e.Id == id);
         }
 
-
         [HttpGet("EmpWithDepartment")]
-        public async Task<ActionResult<IEnumerable<Object>>> GetEmployeeWithDepartment()
+        public async Task<ActionResult<IEnumerable<object>>> GetEmployeeWithDepartment()
         {
-            return await myContext.Employees.Select(e => new
+            var employees = await myContext.Employees
+                .Include(e => e.Department)
+                .ToListAsync();
+
+            var result = employees.Select(e => new
             {
                 e.Id,
                 e.Name,
                 DepartmentName = e.Department.Name,
-            }).ToListAsync();
+            });
+
+            return Ok(result);
         }
 
         [HttpGet("GetEmpWithPrj")]
-        public async Task<ActionResult<IEnumerable<Object>>> GetEmployeeWithPrj()
+        public async Task<ActionResult<IEnumerable<object>>> GetEmployeeWithPrj()
         {
             var task = from employee in myContext.Employees
                        join empprj in myContext.ProjectEmployees on employee.Id equals empprj.EmployeeId into ee
@@ -117,16 +168,16 @@ namespace EntityFrameworkAssignment1.Controllers
                        {
                            EmployeeID = employee.Id,
                            Employeename = employee.Name,
-                           EmployeeProject = empp.Project
+                           EmployeeProject = empp.Project != null ? new { empp.Project.Id, empp.Project.Name } : null
                        };
-            return await task.ToListAsync();
+
+            return Ok(await task.ToListAsync());
         }
 
-
-        [HttpGet("FilterSalaryAndDAte")]
-        public async Task<ActionResult<IEnumerable<Object>>> GetEmployeeFilter()
+        [HttpGet("FilterSalaryAndDate")]
+        public async Task<ActionResult<IEnumerable<object>>> GetEmployeeFilter()
         {
-            return await myContext.Employees
+            var result = await myContext.Employees
                 .Where(emp => emp.Salary.Amount >= 100 && emp.JoinedDate >= new DateTime(2024, 1, 1))
                 .Select(e => new
                 {
@@ -136,30 +187,37 @@ namespace EntityFrameworkAssignment1.Controllers
                     e.JoinedDate
                 })
                 .ToListAsync();
+
+            return Ok(result);
         }
 
         [HttpGet("RawSQL")]
-        public async Task<ActionResult<IEnumerable<Employee>>> GetEmployeesWithSalaryAndJoinedDateRawSQL()
+        public async Task<ActionResult<IEnumerable<EmployeeDTO>>> GetEmployeesWithSalaryAndJoinedDateRawSQL()
         {
-            return await myContext.Employees
+            var employees = await myContext.Employees
                 .FromSqlRaw("SELECT * FROM Employees WHERE Salary_Amount > 100 AND JoinedDate >= '2024-01-01'")
                 .ToListAsync();
+
+            var employeeDTOs = employees.Select(e => (EmployeeDTO)e).ToList();
+            return Ok(employeeDTOs);
         }
 
         // Apply transaction
         [HttpPost("Transaction")]
-        public async Task<ActionResult<Employee>> PostEmployeeWithTransaction(Employee employee)
+        public async Task<ActionResult<EmployeeDTO>> PostEmployeeWithTransaction(EmployeeDTO employeeDTO)
         {
             using (var transaction = myContext.Database.BeginTransaction())
             {
                 try
                 {
+                    var employee = (Employee)employeeDTO;
                     myContext.Employees.Add(employee);
                     await myContext.SaveChangesAsync();
 
                     transaction.Commit();
 
-                    return CreatedAtAction("GetEmployee", new { id = employee.Id }, employee);
+                    var createdEmployeeDTO = (EmployeeDTO)employee;
+                    return CreatedAtAction("GetEmployee", new { id = employee.Id }, createdEmployeeDTO);
                 }
                 catch (Exception)
                 {

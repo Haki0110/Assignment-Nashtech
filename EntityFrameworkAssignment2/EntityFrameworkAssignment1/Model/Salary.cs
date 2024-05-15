@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using EntityFrameworkAssignment1.DTOs;
 
 namespace EntityFrameworkAssignment1.Model
 {
@@ -13,5 +14,27 @@ namespace EntityFrameworkAssignment1.Model
 
         public int EmployeeId { get; set; }
         public Employee Employee { get; set; }
+
+        public static implicit operator Salary(SalaryDTO dto)
+        {
+            return new Salary
+            {
+                Id = dto.Id,
+                Amount = dto.Amount,
+                EmployeeId = dto.EmployeeId,
+                Employee = dto.Employee
+            };
+        }
+
+        public static implicit operator SalaryDTO(Salary model)
+        {
+            return new SalaryDTO
+            {
+                Id = model.Id,
+                Amount = model.Amount,
+                EmployeeId = model.EmployeeId,
+                Employee = model.Employee
+            };
+        }
     }
 }
