@@ -9,8 +9,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASPNETAssignment1.BusinessL
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASPNETAssignment1.Models", "DemoForRookies.Models\ASPNETAssignment1.Models.csproj", "{1C4F297D-70AC-4BBC-A719-DC45B82A5B32}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApp.Tests", "WebApplication1\WebApp.Tests.csproj", "{C7D03838-1E37-458A-9A24-6B94409D4B04}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASPNETAssignment1.Tests", "BusinessTest\ASPNETAssignment1.Tests.csproj", "{B0B4C69E-00C1-40D3-8C02-32B6B9E0E337}"
 EndProject
 Global
@@ -31,10 +29,6 @@ Global
 		{1C4F297D-70AC-4BBC-A719-DC45B82A5B32}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C4F297D-70AC-4BBC-A719-DC45B82A5B32}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C4F297D-70AC-4BBC-A719-DC45B82A5B32}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C7D03838-1E37-458A-9A24-6B94409D4B04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C7D03838-1E37-458A-9A24-6B94409D4B04}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C7D03838-1E37-458A-9A24-6B94409D4B04}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C7D03838-1E37-458A-9A24-6B94409D4B04}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B0B4C69E-00C1-40D3-8C02-32B6B9E0E337}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B0B4C69E-00C1-40D3-8C02-32B6B9E0E337}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0B4C69E-00C1-40D3-8C02-32B6B9E0E337}.Release|Any CPU.ActiveCfg = Release|Any CPU

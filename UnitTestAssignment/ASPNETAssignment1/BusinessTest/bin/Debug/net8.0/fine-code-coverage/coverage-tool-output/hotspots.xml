@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Hotspots>
+  <Hotspot>
+    <Assembly>ASPNETAssignment1.WebApp</Assembly>
+    <Class>AspNetCoreGeneratedDocument.Areas_NashTech_Views_Person_Index</Class>
+    <MethodName>ExecuteAsync()</MethodName>
+    <ShortName />
+    <Line>4</Line>
+    <FileIndex>0</FileIndex>
+    <Metrics>
+      <Metric>
+        <Name>Cyclomatic complexity</Name>
+        <Exceeded>true</Exceeded>
+        <Value>52</Value>
+      </Metric>
+    </Metrics>
+  </Hotspot>
+  <Hotspot>
+    <Assembly>ASPNETAssignment1.WebApp</Assembly>
+    <Class>AspNetCoreGeneratedDocument.Areas_NashTech_Views_Person_Edit</Class>
+    <MethodName>&lt;ExecuteAsync()</MethodName>
+    <ShortName />
+    <Line>10</Line>
+    <FileIndex>0</FileIndex>
+    <Metrics>
+      <Metric>
+        <Name>Cyclomatic complexity</Name>
+        <Exceeded>true</Exceeded>
+        <Value>46</Value>
+      </Metric>
+    </Metrics>
+  </Hotspot>
+  <Hotspot>
+    <Assembly>ASPNETAssignment1.WebApp</Assembly>
+    <Class>AspNetCoreGeneratedDocument.Areas_NashTech_Views_Person_Create</Class>
+    <MethodName>&lt;ExecuteAsync()</MethodName>
+    <ShortName />
+    <Line>12</Line>
+    <FileIndex>0</FileIndex>
+    <Metrics>
+      <Metric>
+        <Name>Cyclomatic complexity</Name>
+        <Exceeded>true</Exceeded>
+        <Value>42</Value>
+      </Metric>
+    </Metrics>
+  </Hotspot>
+</Hotspots>
