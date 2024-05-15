@@ -1,0 +1,58 @@
+﻿<h1>Index</h1>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Button Create -->
+<a asp-area="NashTech" asp-controller="Person" asp-action="Create" class="btn btn-primary">Create</a>
+
+<style>
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    th, td {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+
+    th {
+        font-weight: bold;
+    }
+</style>
+
+<table>
+    <tr>
+        <th>ID</th>
+        <th>Full Name</th>
+        <th>Gender</th>
+        <th>Date of Birth</th>
+        <th>Phone Number</th>
+        <th>Birthplace</th>
+        <th>Age</th>
+        <th>Is Graduated</th>
+        <th>Action</th>
+    </tr>
+    @foreach (var person in Model)
+    {
+        <tr>
+            <td>@person.Id</td>
+            <td><a href="@Url.Action("Details", "Person", new { area = "NashTech", id = person.Id })">@person.FirstName @person.LastName</a></td>
+            <td>@person.Gender</td>
+            <td>@person.DateOfBirth.ToString("dd/MM/yyyy")</td>
+            <td>@person.PhoneNumber</td>
+            <td>@person.BirthPlace</td>
+            <td>@person.Age</td>
+            <td>@person.IsGraduated</td>
+            <td>
+                <a href="@Url.Action("Edit", "Person", new { area = "NashTech", id = person.Id })" class="btn btn-info me-2">Edit</a> |
+                <a href="@Url.Action("Details", "Person", new { area = "NashTech", id = person.Id })" class="btn btn-info me-2">Details</a> |
+                <a href="@Url.Action("Delete", "Person", new { area = "NashTech", id = person.Id })" class="btn btn-info me-2">Delete</a>
+            </td>
+        </tr>
+    }
+</table>

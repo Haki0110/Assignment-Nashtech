@@ -1,0 +1,51 @@
+﻿@model ASPNETAssignment1.Models.Models.Person
+
+@{
+    ViewData["Title"] = "OldestPerson";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>OldestPerson</h1>
+
+<style>
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    th, td {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+
+    th {
+        font-weight: bold;
+    }
+</style>
+
+<table>
+    <tr>
+        <th>ID</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Gender</th>
+        <th>Date of Birth</th>
+        <th>Phong Number</th>
+        <th>Birthplace</th>
+        <th>Age</th>
+        <th>Is Graduated</th>
+    </tr>
+
+    <tr>
+        <td>@Model.Id</td>
+        <td>@Model.FirstName</td>
+        <td>@Model.LastName</td>
+        <td>@Model.Gender</td>
+        <td>@Model.DateOfBirth.ToString("dd/MM/yyyy")</td>
+        <td>@Model.PhoneNumber</td>
+        <td>@Model.BirthPlace</td>
+        <td>@Model.Age</td>
+        <td>@Model.IsGraduated</td>
+    </tr>
+</table>

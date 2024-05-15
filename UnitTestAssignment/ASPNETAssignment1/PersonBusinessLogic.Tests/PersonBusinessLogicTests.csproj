@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Moq" Version="4.20.70" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DemoForRookies.BusinessLogic\ASPNETAssignment1.BusinessLogic.csproj" />
+    <ProjectReference Include="..\DemoForRookies.Models\ASPNETAssignment1.Models.csproj" />
+  </ItemGroup>
+
+</Project>

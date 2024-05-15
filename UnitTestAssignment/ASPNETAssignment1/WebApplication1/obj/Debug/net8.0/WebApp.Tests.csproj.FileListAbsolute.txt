@@ -1,0 +1,9 @@
+C:\Users\Admin\source\repos\ASPNETAssignment1\WebApplication1\obj\Debug\net8.0\WebApp.Tests.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\ASPNETAssignment1\WebApplication1\obj\Debug\net8.0\WebApp.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\ASPNETAssignment1\WebApplication1\obj\Debug\net8.0\WebApp.Tests.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\ASPNETAssignment1\WebApplication1\obj\Debug\net8.0\WebApp.Tests.AssemblyInfo.cs
+C:\Users\Admin\source\repos\ASPNETAssignment1\WebApplication1\obj\Debug\net8.0\WebApp.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\ASPNETAssignment1\WebApplication1\obj\Debug\net8.0\WebApp.Tests.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Admin\source\repos\ASPNETAssignment1\WebApplication1\obj\Debug\net8.0\WebApp.Tests.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Admin\source\repos\ASPNETAssignment1\WebApplication1\obj\Debug\net8.0\WebApp.Tests.RazorAssemblyInfo.cache
+C:\Users\Admin\source\repos\ASPNETAssignment1\WebApplication1\obj\Debug\net8.0\WebApp.Tests.RazorAssemblyInfo.cs

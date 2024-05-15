@@ -1,0 +1,47 @@
+﻿@model ASPNETAssignment1.Models.Models.Person
+@{
+    ViewData["Title"] = "Person Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1 class="text-center">Person Details</h1>
+
+
+
+<div class="container">
+    <dl class="row">
+        <dt class="col-sm-3 text-end">ID:</dt>
+        <dd class="col-sm-9">@Model.Id</dd>
+
+        <dt class="col-sm-3 text-end">First Name:</dt>
+        <dd class="col-sm-9">@Model.FirstName</dd>
+
+        <dt class="col-sm-3 text-end">Last Name:</dt>
+        <dd class="col-sm-9">@Model.LastName</dd>
+
+        <dt class="col-sm-3 text-end">Gender:</dt>
+        <dd class="col-sm-9">@Model.Gender</dd>
+
+        <dt class="col-sm-3 text-end">Date of Birth:</dt>
+        <dd class="col-sm-9">@Model.DateOfBirth.ToString("dd/MM/yyyy")</dd>
+
+        <dt class="col-sm-3 text-end">Phone Number:</dt>
+        <dd class="col-sm-9">@Model.PhoneNumber</dd>
+
+        <dt class="col-sm-3 text-end">Birthplace:</dt>
+        <dd class="col-sm-9">@Model.BirthPlace</dd>
+
+        <dt class="col-sm-3 text-end">Age:</dt>
+        <dd class="col-sm-9">@Model.Age</dd>
+
+        <dt class="col-sm-3 text-end">Is Graduated:</dt>
+        <dd class="col-sm-9">@Model.IsGraduated</dd>
+    </dl>
+</div>
+
+<div class="text-center">
+    <a href="@Url.Action("Edit", new { id = Model.Id })" class="btn btn-primary me-2">Edit</a>
+    <a href="@Url.Action("Delete", new { id = Model.Id })" class="btn btn-info me-2">Delete</a>
+    <a href="@Url.Action("Index")" class="btn btn-secondary">Back to List</a>
+
+</div>
