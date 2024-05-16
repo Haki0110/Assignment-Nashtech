@@ -11,12 +11,12 @@ namespace ASPNETAssignment1.WebApp.Tests.Controllers
 {
     public class PersonControllerTests
     {
-        private readonly Mock<PersonBusinessLogic> _mockPersonBusinessLogic;
+        private readonly Mock<IPersonBusinessLogic> _mockPersonBusinessLogic;
         private readonly PersonController _controller;
 
         public PersonControllerTests()
         {
-            _mockPersonBusinessLogic = new Mock<PersonBusinessLogic>();
+            _mockPersonBusinessLogic = new Mock<IPersonBusinessLogic>();
             _controller = new PersonController(_mockPersonBusinessLogic.Object);
         }
 

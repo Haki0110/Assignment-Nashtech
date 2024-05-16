@@ -8,13 +8,12 @@ namespace ASPNETAssignment1.WebApp.Controllers
     [Area("NashTech")]
     public class PersonController : Controller
     {
-        private readonly PersonBusinessLogic _personBusinessLogic;
+        private readonly IPersonBusinessLogic _personBusinessLogic;
 
-        public PersonController(PersonBusinessLogic personBusinessLogic)
+        public PersonController(IPersonBusinessLogic personBusinessLogic)
         {
             _personBusinessLogic = personBusinessLogic;
         }
-
 
         public IActionResult Index()
         {
@@ -67,7 +66,6 @@ namespace ASPNETAssignment1.WebApp.Controllers
             return View(person);
         }
 
-
         public IActionResult Edit(int id)
         {
             var person = _personBusinessLogic.GetPersonById(id);
@@ -95,7 +93,6 @@ namespace ASPNETAssignment1.WebApp.Controllers
             }
             return View(person);
         }
-
 
         public IActionResult Details(int id)
         {
