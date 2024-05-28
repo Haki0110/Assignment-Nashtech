@@ -1,0 +1,21 @@
+.home {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 800px;
+    margin-top: 80px;
+  }
+  
+  .home h1 {
+    color: #282c34;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .home p {
+    font-size: 1.2em;
+    color: #555;
+  }

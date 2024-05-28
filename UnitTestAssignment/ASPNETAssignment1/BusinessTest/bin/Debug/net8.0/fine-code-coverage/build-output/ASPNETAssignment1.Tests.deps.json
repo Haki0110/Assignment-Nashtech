@@ -12,6 +12,7 @@
           "ASPNETAssignment1.Models": "1.0.0",
           "ASPNETAssignment1.WebApp": "1.0.0",
           "Microsoft.NET.Test.Sdk": "17.8.0",
+          "Moq": "4.20.70",
           "coverlet.collector": "6.0.0",
           "xunit": "2.8.0",
           "xunit.runner.visualstudio": "2.8.0"
