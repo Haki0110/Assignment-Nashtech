@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\HoangTQ_LibraryManagement.props" />
+</Project>
